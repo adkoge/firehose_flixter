@@ -39,6 +39,9 @@ gem 'rails_12factor', group: :production
 gem 'bootstrap-sass', '~> 3.3.5.1'
 gem 'sprockets', '2.11.0'
 
+# Add simple forms
+gem 'simple_form'
+
 # Use devise for user authentication
 gem 'devise'
 
