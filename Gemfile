@@ -45,6 +45,15 @@ gem 'simple_form'
 # Use devise for user authentication
 gem 'devise'
 
+# Use carrierwave to upload files
+gem 'carrierwave'
+
+# Install Figaro to store values
+gem "figaro"
+
+# Add fog gem
+gem "fog", "~> 1.3.1"
+
 # Use ActiveModel has_secure_password
 # gem 'bcrypt-ruby', '~> 3.1.2'
 
