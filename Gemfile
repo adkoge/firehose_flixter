@@ -22,7 +22,7 @@ gem 'coffee-rails', '~> 4.0.0'
 gem 'jquery-rails'
 
 # Turbolinks makes following links in your web application faster. Read more: https://github.com/rails/turbolinks
-gem 'turbolinks'
+# gem 'turbolinks'
 
 # Build JSON APIs with ease. Read more: https://github.com/rails/jbuilder
 gem 'jbuilder', '~> 1.2'
@@ -56,6 +56,15 @@ gem "fog", "~> 1.3.1"
 
 # Use Mini Magick to resize images
 gem 'mini_magick', '~> 4.3.1'
+
+# Add carrierwave-aws for video upload
+gem 'carrierwave-aws'
+
+# Add Stripe for accepting payments
+gem 'stripe'
+
+# Add ranked-model to keep track of lesson position
+gem 'ranked-model'
 
 # Use ActiveModel has_secure_password
 # gem 'bcrypt-ruby', '~> 3.1.2'

@@ -6,6 +6,8 @@
   track" => true %>
   <%= javascript_include_tag "application", "data-turbolinks-track" => true %>
   <%= csrf_meta_tags %>
+  <link href="http://vjs.zencdn.net/5.7.1/video-js.css" rel="stylesheet">
+  <script src="http://vjs.zencdn.net/ie8/1.1.2/videojs-ie8.min.js"></script>
 </head>
 <body>
 
@@ -44,8 +46,10 @@
     </div><!-- /.container-fluid -->
   </nav>
 
-<% if !user_signed_in? %>
+<% if notice.present? %>
 <p class="alert alert-info"><%= notice %></p>
+<% end %>
+<% if alert.present? %>
 <p class="alert alert-danger"><%= alert %></p>
 <% end %>
 
