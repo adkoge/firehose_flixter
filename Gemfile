@@ -66,9 +66,11 @@ gem 'stripe'
 # Add ranked-model to keep track of lesson position
 gem 'ranked-model'
 
+# Use jquery ui
+gem 'jquery-ui-rails'
+
 # Use ActiveModel has_secure_password
 # gem 'bcrypt-ruby', '~> 3.1.2'
-
 # Use unicorn as the app server
 # gem 'unicorn'
 
